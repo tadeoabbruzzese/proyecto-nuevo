@@ -1,0 +1,7 @@
+/* Hoja de estilos global: aca se encuentran los estilos que van a compartir en comun todos los archivos html */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
