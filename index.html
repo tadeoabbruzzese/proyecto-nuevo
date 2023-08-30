@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Vite App</title>
+  </head>
+  <body class="vh-100 overflow-hidden">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #006073;">
+      <div class="container">
+        <!-- LOGO -->
+        <picture>
+          <img src="/public/img/Mente_En_armonia-removebg-preview_1 2.png" width="150px" class="navbar-brand md-4" href="#">
+        </picture>
+        <!-- TOGGLE BTN -->
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Sidebar -->
+        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <!-- Sidebar Header -->
+          <div class="offcanvas-header text-white border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Mente en Armonia</h5>
+            <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <!-- Sidebar Body -->
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              
+              <li class="nav-item mx-2">
+                <a class="nav-link fs-5 active" href="https://www.mercadolibre.com.ar/" target="_blank">Inicio</a>
+              </li>
+              <li class="nav-item dropdown mx-2">
+                <a class="nav-link dropdown-toggle fs-5" href="https://www.mercadolibre.com.ar/" target="_blank" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Padecimientos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Ansiedad</a></li>
+                  <li><a class="dropdown-item" href="#">BurnOut</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Estress laboral</a></li>
+                </ul>
+              </li>
+              
+
+              <li class="nav-item mx-2">
+                <a class="nav-link fs-5" href="https://www.mercadolibre.com.ar/" target="_blank">Acerca de nosotros</a>
+              </li>
+             
+              <li class="nav-item mx-2">
+                <a class="nav-link fs-5" aria-current="page" href="#">Contacto</a>
+              </li>
+              
+            </ul>
+            <!-- <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- END OF NAVBAR -->
+
+    <main>
+      <section class="w-100 vh-100 d-flex flex-column justify-content-center align-items-center text-white">
+        <div class="w-100">
+          <div class="fs-1 d-flex ms-5">El bienestar mental es escencial</div>
+        <div class="fs-1 d-flex  ms-5">para llevar una vida laboral</div>
+        <div class="fs-1 d-flex ms-5">plena y productiva</div>
+        </div>
+          
+        
+      </section>
+    </main>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+@import 'bootstrap';
+
+body{
+  background: url('https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?cs=srgb&dl=pexels-pixabay-36717.jpg&fm=jpg');
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: repeat;
+
+}
+
+@media(max-width: 991px){
+  .sidebar{
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+  }
+}
+
+section{
+  background: url(public/img/dingzeyu-li-ie8WW5KUx3o-unsplash\ 1.png);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: repeat;
+
+}
