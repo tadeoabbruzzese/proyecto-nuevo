@@ -1,13 +1,6 @@
 @import 'bootstrap';
 
-body{
-  background: url('https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?cs=srgb&dl=pexels-pixabay-36717.jpg&fm=jpg');
-  background-size: cover;
-  background-blend-mode: multiply;
-  background-position: center;
-  background-repeat: repeat;
 
-}
 
 @media(max-width: 991px){
   .sidebar{
